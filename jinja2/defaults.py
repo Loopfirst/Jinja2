@@ -13,12 +13,12 @@ from jinja2.utils import generate_lorem_ipsum, Cycler, Joiner
 
 
 # defaults for the parser / lexer
-BLOCK_START_STRING = '{%'
-BLOCK_END_STRING = '%}'
-VARIABLE_START_STRING = '{{'
-VARIABLE_END_STRING = '}}'
-COMMENT_START_STRING = '{#'
-COMMENT_END_STRING = '#}'
+BLOCK_START_STRING = '<%'
+BLOCK_END_STRING = '%>'
+VARIABLE_START_STRING = '<%='
+VARIABLE_END_STRING = '%>'
+COMMENT_START_STRING = '<#'
+COMMENT_END_STRING = '#>'
 LINE_STATEMENT_PREFIX = None
 LINE_COMMENT_PREFIX = None
 TRIM_BLOCKS = False
